@@ -5,4 +5,4 @@ _Ejercicio para consolidar conocimientos sobre Html, Css, Java Script y Flask_
 * **Jesús Acevedo**
 
 ## Licencia
-Este proyecto está bajo la licencia Atribución 4.0 Internacional mira el archivp [LICENSE.txt](LICENSE.txt) para detalles.
+Este proyecto está bajo la licencia Atribución 4.0 Internacional mira el archivo [LICENSE.txt](LICENSE.txt) para detalles.
