@@ -18,14 +18,17 @@ function operar(elemento){
     operador = elemento.value;
 }
 
-function resultado(elemento){
+function resultado(){
     var operadores ={
-        "+": a+b,
+        "+": Number(a)+Number(b),
         "-": a-b,
         "*": a*b,
         "/": a/b,
     }
-    document.getElementById("ans").setAttribute("value",operadores[operador])
+    if(a!=-1 && b!=-1)
+    document.getElementById("ans").setAttribute("value",operadores[operador]);
+    else document.getElementById("ans").setAttribute("value","0");
+
     a = -1
     b = -1
 }
