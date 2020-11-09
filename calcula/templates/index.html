@@ -13,28 +13,28 @@
     <form name="calculator" class="container">
         <h3>Calculadora</h3>
 
-        <input type="textfield" name="ans" value="">
+        <input type="textfield" id="ans" value="">
 
-        <input type="button" value="1">
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" value="+">
+        <input type="button" value="1" onclick="operacion(this)">
+        <input type="button" value="2" onclick="operacion(this)">
+        <input type="button" value="3" onclick="operacion(this)">
+        <input type="button" value="+" onclick="operar(this)">
 
-        <input type="button" value="4">
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" value="-">
+        <input type="button" value="4" onclick="operacion(this)">
+        <input type="button" value="5" onclick="operacion(this)">
+        <input type="button" value="6" onclick="operacion(this)">
+        <input type="button" value="-" onclick="operar(this)">
 
-        <input type="button" value="7">
-        <input type="button" value="8">
-        <input type="button" value="9">
-        <input type="button" value="*">
+        <input type="button" value="7" onclick="operacion(this)">
+        <input type="button" value="8" onclick="operacion(this)">
+        <input type="button" value="9" onclick="operacion(this)">
+        <input type="button" value="*" onclick="operar(this)">
 
-        <input type="button" value="0">
-        <input type="reset" value="c">
-        <input type="button" value="/">
-        <input type="button" value="=">
+        <input type="button" value="0" onclick="operacion(this)">
+        <input type="reset" value="c" onclick="limpiar()">
+        <input type="button" value="/" onclick="operar(this)">
+        <input type="button" value="=" onclick="resultado(this)">
     </form>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
 </body>
-
 </html>
